@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RuleActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="游戏规则"
+        android:textStyle="bold"
+        android:textColor="#ffcc00"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/happy"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="80dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ffcc33"
+        android:id="@+id/happy"
+        android:text="圣诞节到了\n祝大家圣诞快乐！！！\n快速点击掉落的礼物来增加happiness吧！"/>
+
+</RelativeLayout>
